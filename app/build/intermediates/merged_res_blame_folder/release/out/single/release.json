@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.moderneinstein.android.arcade.app-merged_res-32:/layout_to_do_list.xml.flat",
+        "source": "com.moderneinstein.android.arcade.app-main-33:/layout/to_do_list.xml"
+    },
+    {
+        "merged": "com.moderneinstein.android.arcade.app-merged_res-32:/layout_main.xml.flat",
+        "source": "com.moderneinstein.android.arcade.app-main-33:/layout/main.xml"
+    },
+    {
+        "merged": "com.moderneinstein.android.arcade.app-merged_res-32:/drawable-mdpi_ic_launcher.png.flat",
+        "source": "com.moderneinstein.android.arcade.app-main-33:/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.moderneinstein.android.arcade.app-merged_res-32:/layout_anagrams.xml.flat",
+        "source": "com.moderneinstein.android.arcade.app-main-33:/layout/anagrams.xml"
+    },
+    {
+        "merged": "com.moderneinstein.android.arcade.app-merged_res-32:/layout_settings.xml.flat",
+        "source": "com.moderneinstein.android.arcade.app-main-33:/layout/settings.xml"
+    },
+    {
+        "merged": "com.moderneinstein.android.arcade.app-merged_res-32:/layout_login.xml.flat",
+        "source": "com.moderneinstein.android.arcade.app-main-33:/layout/login.xml"
+    },
+    {
+        "merged": "com.moderneinstein.android.arcade.app-merged_res-32:/layout_signup.xml.flat",
+        "source": "com.moderneinstein.android.arcade.app-main-33:/layout/signup.xml"
+    },
+    {
+        "merged": "com.moderneinstein.android.arcade.app-merged_res-32:/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "com.moderneinstein.android.arcade.app-main-33:/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.moderneinstein.android.arcade.app-merged_res-32:/drawable-ldpi_ic_launcher.png.flat",
+        "source": "com.moderneinstein.android.arcade.app-main-33:/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.moderneinstein.android.arcade.app-merged_res-32:/drawable-hdpi_ic_launcher.png.flat",
+        "source": "com.moderneinstein.android.arcade.app-main-33:/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.moderneinstein.android.arcade.app-merged_res-32:/layout_list_item.xml.flat",
+        "source": "com.moderneinstein.android.arcade.app-main-33:/layout/list_item.xml"
+    }
+]

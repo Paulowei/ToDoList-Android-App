@@ -1,0 +1,102 @@
+<?xml version ="1.0" encoding = "UTF-8"?>
+<LinearLayout
+xmlns:app ="http://schemas.android.com/apk/res-auto"
+xmlns:tools = "http://schemas.android.com/apk/tools"
+xmlns:android= "http://schemas.android.com/apk/res/android"
+android:orientation ="vertical" 
+android:gravity = "center"
+android:id ="@+id/login_1" 
+android:layout_height ="match_parent"
+android:layout_width = "match_parent"
+android:background ="@color/login_color_7">
+    <ScrollView
+    android:layout_height ="match_parent"
+    android:layout_width ="match_parent"
+    android:gravity ="center"
+    android:layout_gravity = "center"
+    android:id = "@+id/login_1_1"
+    android:background ="@color/login_color_6"
+    android:fillViewport = "false"> 
+        <LinearLayout
+        android:padding ="@dimen/container_margin_2"
+        android:layout_margin ="@dimen/container_padding_3"
+        android:id = "@+id/login_1_1_1"
+        android:layout_gravity = "center"
+        android:background ="@color/login_color_5"
+        android:layout_width ="match_parent"
+        android:layout_height ="match_parent"
+        android:orientation = "vertical">
+            <LinearLayout
+            android:layout_height ="wrap_content" 
+            android:layout_gravity ="center_horizontal"
+            android:layout_width = "match_parent"
+            android:orientation ="vertical"
+            android:layout_margin ="@dimen/container_margin_2"
+            android:padding ="@dimen/container_margin_3"
+            android:background ="@color/login_color_5"
+            android:id ="@+id/login_1_1_1_1">
+                <TextView
+                android:padding ="@dimen/content_padding_3"
+                android:layout_margin ="@dimen/content_margin_2"
+                android:layout_height ="wrap_content"
+                android:layout_width ="match_parent"
+                android:layout_gravity= "left"
+                android:id ="@+id/login_1_1_1_1_1"
+                android:textSize ="@dimen/login_text_size_5"
+                android:text ="@string/username_text"/>
+                <EditText
+                android:layout_gravity ="left"
+                android:layout_margin = "@dimen/content_margin_3"
+                android:padding ="@dimen/content_padding_2"
+                android:layout_height ="wrap_content"
+                android:layout_width ="match_parent"
+                 android:id ="@+id/login_1_1_1_1_2"
+                android:hint ="@string/username_text"
+                android:background ="@color/login_color_4"/>
+                <TextView
+                android:layout_height ="wrap_content"
+                android:layout_width  = "wrap_content"
+                 android:id = "@+id/login_1_1_1_1_3"
+                android:padding ="@dimen/content_padding_3"
+                android:layout_margin ="@dimen/content_margin_2"
+                android:layout_gravity ="left"
+                android:text = "@string/password_text"
+                android:textSize = "@dimen/login_text_size_5"/>
+                <EditText
+                android:layout_margin ="@dimen/content_margin_3"
+                android:padding ="@dimen/content_padding_2"
+                android:layout_width ="match_parent"
+                android:layout_height ="wrap_content"
+                android:id ="@+id/login_1_1_1_1_4"
+                 android:layout_gravity ="left"
+                 android:hint ="@string/password_text"
+                 android:background ="@color/login_color_4"/>
+            </LinearLayout>
+            <LinearLayout
+            android:orientation ="vertical"
+            android:layout_gravity = "center_horizontal"
+            android:padding ="@dimen/container_padding_2"
+            android:id ="@+id/login_1_1_1_2"
+            android:layout_width ="match_parent"
+            android:layout_height ="wrap_content"
+            android:layout_margin ="@dimen/container_margin_3">
+                <Button
+                android:layout_gravity ="left"
+                android:padding ="@dimen/content_padding_2"
+                android:layout_margin ="@dimen/content_margin_3"
+                android:layout_width ="match_parent"
+                android:layout_height ="wrap_content"
+                android:id ="@+id/login_1_1_1_2_1"
+                android:text = "@string/signup_text"/>
+                <Button
+                android:layout_gravity = "left"
+                android:layout_margin ="@dimen/content_margin_3"
+                android:padding ="@dimen/content_padding_2"
+                android:layout_height ="wrap_content"
+                android:layout_width = "match_parent"
+                android:id = "@+id/login_1_1_1_2_2"  
+                android:text = "@string/login_text"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

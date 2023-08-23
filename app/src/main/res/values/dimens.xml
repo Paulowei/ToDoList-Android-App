@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<resources>
+    <dimen name = "container_padding_3">9dp</dimen>
+    <dimen name = "container_margin_3">8dp</dimen>
+    <dimen name = "content_margin_3">8dp</dimen>
+    <dimen name = "content_padding_3">10dp</dimen>
+    <dimen name = "top_bar_height">40dp</dimen>
+    <dimen name = "button_height_1">70dp</dimen>
+    <dimen name ="button_width_1">140dp</dimen>
+    <dimen  name= "content_margin_2">8dp</dimen>
+    <dimen name = "container_margin_2">9dp</dimen>
+    <dimen name = "container_padding_2">8dp</dimen>
+    <dimen name ="content_padding_2">10px</dimen>
+    <dimen name = "to_do_text_height_1">60dp</dimen>
+    <dimen  name ="to_do_container_height_1">160dp</dimen>
+    <dimen name = "to_do_list_top_bar_4">85dp</dimen>
+    <dimen name =  "login_text_size_5">15sp</dimen>
+    <dimen name = "text_size_preset_6">18sp</dimen>
+</resources>

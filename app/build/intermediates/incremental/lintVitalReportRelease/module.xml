@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="C:\Users\Access\Music\Updates\Nests\Verse\app"
+    name=":app"
+    type="APP"
+    maven="Template-App:app:"
+    gradle="7.3.1"
+    buildFolder="build"
+    bootClassPath="C:\Users\Access\Downloads\android-sdk17-windows\platforms\android-31\android.jar;C:\Users\Access\Downloads\android-sdk17-windows\build-tools\30.0.3\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-31"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="test_arr">454535</attr>
+    <color name="anagrams_color_1">#20445544</color>
+    <color name="anagrams_color_2">#20224422</color>
+    <color name="anagrams_color_3">#30662244</color>
+    <color name="anagrams_color_4">#25334477</color>
+    <color name="anagrams_color_5">#30774433</color>
+    <color name="anagrams_color_6">#30335566</color>
+    <color name="anagrams_color_7">#43FAD7A0</color>
+    <color name="anagrams_color_8">#54885544</color>
+    <color name="list_item_color_4">#30224477</color>
+    <color name="login_color_4">#70FFFFFF</color>
+    <color name="login_color_5">#50AAAAAA</color>
+    <color name="login_color_6">#40888888</color>
+    <color name="login_color_7">#40666666</color>
+    <color name="main_color_1">#45373843</color>
+    <color name="main_color_2">#45452367</color>
+    <color name="main_color_3">#45458743</color>
+    <color name="main_color_4">#453454CD</color>
+    <color name="main_color_5">#35675498</color>
+    <color name="to_do_list_color_4">#50666666</color>
+    <color name="to_do_list_color_5">#50BBBBBB</color>
+    <color name="to_do_list_color_6">#80EEEEEE</color>
+    <dimen name="button_height_1">70dp</dimen>
+    <dimen name="button_width_1">140dp</dimen>
+    <dimen name="container_margin_2">9dp</dimen>
+    <dimen name="container_margin_3">8dp</dimen>
+    <dimen name="container_padding_2">8dp</dimen>
+    <dimen name="container_padding_3">9dp</dimen>
+    <dimen name="content_margin_2">8dp</dimen>
+    <dimen name="content_margin_3">8dp</dimen>
+    <dimen name="content_padding_2">10px</dimen>
+    <dimen name="content_padding_3">10dp</dimen>
+    <dimen name="login_text_size_5">15sp</dimen>
+    <dimen name="text_size_preset_6">18sp</dimen>
+    <dimen name="to_do_container_height_1">160dp</dimen>
+    <dimen name="to_do_list_top_bar_4">85dp</dimen>
+    <dimen name="to_do_text_height_1">60dp</dimen>
+    <dimen name="top_bar_height">40dp</dimen>
+    <string name="alter_text_1">Alter Text</string>
+    <string name="anagrams_activity">Anagrams</string>
+    <string name="anagrams_check_1">Anagrams Check</string>
+    <string name="app_name">Verse</string>
+    <string name="default_web_client_id" translatable="false">124758311020-29a8iam8uvao50udkeesevceekkev7lj.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">124758311020</string>
+    <string name="google_api_key" translatable="false">AIzaSyBnz6o-TkYzYiNoJNqT-V2QB2i1g-DB5Yg</string>
+    <string name="google_app_id" translatable="false">1:124758311020:android:4fc7bf9d712cbfc8b21849</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBnz6o-TkYzYiNoJNqT-V2QB2i1g-DB5Yg</string>
+    <string name="google_storage_bucket" translatable="false">todolist-5ad9a.appspot.com</string>
+    <string name="list_item_text_3">Created</string>
+    <string name="login_activity">Login</string>
+    <string name="login_text">Login</string>
+    <string name="password_text">Password</string>
+    <string name="project_id" translatable="false">todolist-5ad9a</string>
+    <string name="root_select_option_1">Select Any Activity</string>
+    <string name="save_text_string_5">Save Items</string>
+    <string name="signup_activity">Signup</string>
+    <string name="signup_text">Sign up</string>
+    <string name="string_hint_2">Enter A String</string>
+    <string name="string_hint_3">Enter A String</string>
+    <string name="to_do_add_text">Add To-Do</string>
+    <string name="to_do_hint_1">Enter Some Text</string>
+    <string name="to_do_list_activity">To do List</string>
+    <string name="to_do_remove_text">Remove To-do</string>
+    <string name="to_do_text_5">Include a List Item</string>
+    <string name="username_text">Username</string>
+</resources>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--   android:padding= "@dimen/container_padding_3"-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id = "@+id/root_1"
+    android:background ="@color/main_color_1">
+    <LinearLayout
+    android:id = "@+id/root_1_1"
+    android:background = "@color/main_color_2"
+    android:layout_height = "match_parent"
+    android:layout_width ="fill_parent"
+    android:layout_gravity = "center_vertical|center_horizontal"
+    android:orientation= "vertical">
+    <RelativeLayout
+    android:id = "@+id/root_1_1_1"
+    android:layout_height = "@dimen/top_bar_height"
+    android:layout_width = "match_parent"
+    android:layout_weight ="0.6"
+    android:background ="@color/main_color_3">
+    </RelativeLayout>
+    <LinearLayout
+    android:id = "@+id/root_1_1_2"
+    android:orientation = "vertical"
+    android:layout_width = "wrap_content" 
+    android:layout_height= "wrap_content"
+    android:layout_weight = "0.6"
+    android:layout_gravity = "center_horizontal"
+    android:background= "@color/main_color_4"
+    android:padding = "10dp"
+    android:layout_margin="@dimen/container_padding_3">
+        <TextView
+        android:layout_weight  = "1.0"
+        android:layout_gravity ="center_vertical|center_horizontal"
+        android:layout_height = "wrap_content"
+        android:layout_width = "wrap_content"
+        android:id = "@+id/root_1_1_2_1"
+         android:text ="@string/alter_text_1"
+         android:gravity = "center">
+        </TextView>
+          <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/root_select_option_1"
+        android:id="@+id/root_1_1_2_2"
+        android:layout_gravity ="center_vertical|center_horizontal"
+        android:layout_weight = "1.0"
+        android:gravity = "center"/>
+    </LinearLayout>
+    <LinearLayout
+    android:orientation = "vertical"
+     android:layout_height = "wrap_content"
+     android:id = "@+id/root_1_1_3"
+    android:layout_width = "match_parent"
+    android:layout_weight = "1.0"
+    android:layout_gravity ="center_horizontal|center_vertical"
+    android:background ="@color/main_color_5">
+        <LinearLayout
+        android:layout_gravity ="center"
+        android:layout_height ="wrap_content"
+        android:layout_width = "wrap_content"
+        android:orientation ="vertical">
+        <Button
+        android:id = "@+id/root_1_1_3_1"
+        android:layout_gravity ="center_horizontal|center_vertical"
+        android:layout_height = "wrap_content"
+        android:layout_width = "match_parent"
+        android:text = "@string/anagrams_activity"
+        android:padding ="@dimen/content_padding_3"/>
+        <Button
+        android:id = "@+id/root_1_1_3_2"
+        android:layout_height = "wrap_content"
+        android:layout_width = "match_parent"
+        android:layout_gravity ="center_horizontal|center_vertical"
+        android:text = "@string/to_do_list_activity"
+        android:layout_margin = "@dimen/content_margin_2"
+        android:padding ="@dimen/content_padding_2"/>
+        <Button
+        android:id ="@+id/root_1_1_3_3"
+        android:layout_width ="match_parent"
+        android:layout_height ="wrap_content"
+        android:layout_gravity= "center_horizontal|center_vertical"
+        android:text = "@string/signup_activity"
+        android:layout_margin ="@dimen/content_margin_2"
+        android:padding ="@dimen/content_padding_3"/>
+        <Button
+        android:layout_margin ="@dimen/content_margin_3"
+        android:padding = "@dimen/content_padding_3"
+        android:id = "@+id/root_1_1_3_4"
+        android:layout_width ="match_parent"
+        android:layout_height ="wrap_content"
+        android:text = "@string/login_activity"
+        android:layout_gravity = "center_horizontal"/>
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+<!--
+
+      <Button
+        android:padding="@dimen/content_padding_2"
+        android:layout_margin= "@dimen/content_margin_2"
+        android:layout_gravity  = "center_horizontal"
+        android:layout_height ="wrap_content"
+        android:layout_width  =  "match_parent"
+        android:id = "@+id/">
+
+-->
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id = "@+id/root_1">
+
+    <RelativeLayout
+    android:id = "@+id/root_1_1"
+    android:layout_margin = "container_margin_3" 
+    android:padding ="container_padding_3"
+    android:layout_alignParentTop = "true"
+    android:layout_height = "@dimen/top_bar_height">
+
+    </RelativeLayout>
+    <LinearLayout
+    android:id = "@+id/root_1_2"
+    android:layout_centerHorizontal = "true"
+    android:layout_margin = "container_margin_3"
+    android:padding ="container_padding_3"
+    android:orientation = "vertical" >
+        <TextView
+        android:layout_weight  = "1.0"
+        android:layout_gravity ="center_vertical"
+        android:layout_height = "wrap_content"
+        android:layout_width = "wrap_content"
+        android:id = "@+id/root_1_2_1">
+        </TextView>
+          <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/root_select_option_1"
+        android:id="@+id/root_1_2_2"
+        android:layout_gravity ="center_vertical|center_horizontal"/>
+    </LinearLayout>
+    <LinearLayout
+    android:orientation = "vertical"
+    android:layout_centerHorizontal = "true"
+     android:layout_height = "wrap_content"
+     android:id = "@+id/root_1_3"
+    android:layout_width = "match_parent"
+    android:padding= "container_padding_3"
+    android:layout_margin ="container_margin_3">
+        <Button
+        android:id = "@+id/root_1_3_1"
+        android:layout_gravity ="center_horizontal|center_vertical"
+         android:layout_weight= "1.0"
+        android:layout_height = "wrap_content"
+        android:layout_width = "wrap_content"
+        android:layout_margin = "content_margin_3"/>
+        <Button
+        android:id = "@+id/root_1_3_2"
+        android:layout_height = "wrap_content"
+        android:layout_width = "match_parent"
+        android:layout_weight =  "1.0"
+        android:layout_gravity ="center_horizontal|center_vertical"
+        android:layout_margin = "content_margin_3"/>
+    </LinearLayout>
+</RelativeLayout>
+
+-->
+<!--
+    <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:id = "@+id/root_1">
+        <Button
+        android:id = "@+id/root_1_3_1"
+        android:layout_gravity ="right"
+         android:layout_weight= "1.0"
+        android:layout_height = "wrap_content"
+        android:layout_width = "wrap_content"/>
+        <LinearLayout
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity = "center"
+        android:layout_weight = "1.5"
+        android:orientation = "vertical"
+        android:id = "@+id/root_1_2">
+        <TextView
+        android:layout_weight  = "1.0"
+        android:layout_gravity ="center_vertical|center_horizontal "
+        android:layout_height = "wrap_content"
+        android:layout_width = "wrap_content"
+        android:id = "@+id/root_1_2_1"
+        android:text ="@string/alter_text_1"/>
+          <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/root_select_option_1"
+        android:id="@+id/root_1_2_2"
+        android:layout_gravity ="center_vertical|center_horizontal"/>
+        </LinearLayout>
+</LinearLayout>
+-->
+<!--
+    <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id = "@+id/root_1">
+
+    <RelativeLayout
+    android:id = "@+id/root_1_1"
+    android:layout_alignParentTop = "true"
+    android:layout_height = "@dimen/top_bar_height"
+    android:layout_width = "match_parent"
+    android:layout_weight ="1.5">
+    </RelativeLayout>
+    <LinearLayout
+    android:id = "@+id/root_1_2"
+    android:layout_centerHorizontal = "true"
+    android:orientation = "vertical"
+    android:layout_width = "wrap_content" 
+    android:layout_height= "wrap_content"
+    android:layout_weight = "1.0">
+        <TextView
+        android:layout_weight  = "1.0"
+        android:layout_gravity ="center_vertical"
+        android:layout_height = "wrap_content"
+        android:layout_width = "wrap_content"
+        android:id = "@+id/root_1_2_1"
+         android:text ="@string/alter_text_1" >
+        </TextView>
+          <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/root_select_option_1"
+        android:id="@+id/root_1_2_2"
+        android:layout_gravity ="center_vertical|center_horizontal"
+        android:layout_weight = "1.0"/>
+    </LinearLayout>
+    <LinearLayout
+    android:orientation = "vertical"
+    android:layout_centerHorizontal = "true"
+     android:layout_height = "wrap_content"
+     android:id = "@+id/root_1_3"
+    android:layout_width = "match_parent"
+    android:layout_weight = "1.0">
+        <Button
+        android:id = "@+id/root_1_3_1"
+        android:layout_gravity ="center_horizontal|center_vertical"
+         android:layout_weight= "1.0"
+        android:layout_height = "wrap_content"
+        android:layout_width = "wrap_content"/>
+        <Button
+        android:id = "@+id/root_1_3_2"
+        android:layout_height = "wrap_content"
+        android:layout_width = "match_parent"
+        android:layout_weight =  "1.0"
+        android:layout_gravity ="center_horizontal|center_vertical"/>
+    </LinearLayout>
+</RelativeLayout>
+-->
+

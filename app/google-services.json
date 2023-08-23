@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "124758311020",
+    "project_id": "todolist-5ad9a",
+    "storage_bucket": "todolist-5ad9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124758311020:android:4fc7bf9d712cbfc8b21849",
+        "android_client_info": {
+          "package_name": "com.moderneinstein.android.arcade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124758311020-obosbu0batuhoh8e2eqk2ilthn93ah0c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moderneinstein.android.arcade",
+            "certificate_hash": "092971624d5a7cdbbb34c29a11f15a1d6de5877c"
+          }
+        },
+        {
+          "client_id": "124758311020-29a8iam8uvao50udkeesevceekkev7lj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnz6o-TkYzYiNoJNqT-V2QB2i1g-DB5Yg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124758311020-29a8iam8uvao50udkeesevceekkev7lj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

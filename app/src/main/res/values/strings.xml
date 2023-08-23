@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Verse</string>
+    <string name = "root_select_option_1">Select Any Activity</string>
+    <string name =  "alter_text_1">Alter Text</string>
+    <string name ="anagrams_activity">Anagrams</string>
+    <string name = "string_hint_2">Enter A String</string>
+    <string name="string_hint_3">Enter A String</string>
+    <string name = "to_do_hint_1">Enter Some Text</string>
+    <string name ="to_do_remove_text">Remove To-do</string>
+    <string name = "to_do_add_text">Add To-Do</string>
+    <string name =  "anagrams_check_1">Anagrams Check</string>
+    <string name = "list_item_text_3">Created</string>
+    <string name =  "to_do_text_5">Include a List Item</string>
+    <string name ="to_do_list_activity">To do List</string>
+    <string name = "login_activity">Login</string>
+    <string name = "signup_activity">Signup</string>
+    <string name ="password_text">Password</string>
+    <string  name = "username_text">Username</string>
+     <string name = "login_text">Login</string>
+    <string name ="signup_text">Sign up</string>      
+    <string name = "save_text_string_5">Save Items</string>
+</resources>
